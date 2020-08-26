@@ -26,9 +26,15 @@
   }
 }
 @media all and (max-width: 800px) {
-      .top-bar {
+  .top-bar {
     flex-direction: column;
     text-align: center;
+  }
+
+  .logo img {
+    flex: 0 0 100px;
+    margin-right: 70px;
+    height: 100px;
   }
   .logo {
     padding: 18px 0 0;
@@ -51,3 +57,4 @@
   .main-content {
     flex-direction: column;
   }
+}

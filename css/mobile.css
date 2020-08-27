@@ -3,9 +3,6 @@
     flex-direction: column;
     text-align: center;
   }
-  .logo {
-    padding: 18px 0 0;
-  }
   .menu ul {
     flex-direction: column;
     margin-top: 0;
@@ -13,11 +10,14 @@
   .menua ul li {
     padding: 5px;
   }
-  .banner-text-iems {
+  .logo {
+    padding: 18px 0 0;
+  }
+  .header-text-items {
     width: 100%;
   }
 
-  .banner-text-items h2 {
+  .header-text-items h2 {
     font-size: 1.5em;
   }
 
@@ -26,6 +26,13 @@
   }
 }
 @media all and (max-width: 800px) {
+  .menu ul {
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .menua ul li {
+    padding: 5px;
+  }
   .top-bar {
     flex-direction: column;
     text-align: center;
@@ -39,18 +46,12 @@
   .logo {
     padding: 18px 0 0;
   }
-  .menu ul {
-    flex-direction: column;
-    margin-top: 0;
-  }
-  .menua ul li {
-    padding: 5px;
-  }
-  .banner-text-iems {
+
+  .header-text-iems {
     width: 100%;
   }
 
-  .banner-text-items h2 {
+  .header-text-items h2 {
     font-size: 1.5em;
   }
 
